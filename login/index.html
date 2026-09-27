@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-box register">
+            <form>
+                <h1>Register</h1>
+                <div class="input-box animation" style="--i:18;">
+                    <input type="text" required>
+                    <label>Username</label>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-box animation" style="--i:19;">
+                    <input type="email" required>
+                    <label>Email</label>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-box animation" style="--i:20;">
+                    <input type="password" required>
+                    <label>Password</label>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <button type="submit" class="btn animation" style="--i:21;">Register</button>
+                <div class="link-txt animation" style="--i:22;">
+                    <p>Already have an account? <a href="#" class="login-link">Sign In</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="info-content register">
+            <h2 class="animation" style="--i:17;">WELCOME!</h2>
+            <p class="animation" style="--i:18;">We're delighted to have you here. If you need any assistance, feel free to reach out.</p>
+        </div>
+
+        <div class="form-box login">
+            <form>
+                <h1>Login</h1>
+                <div class="input-box animation" style="--i:1;">
+                    <input type="text" required>
+                    <label>Username</label>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-box animation" style="--i:2;">
+                    <input type="password" required>
+                    <label>Password</label>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <button type="submit" class="btn animation" style="--i:3;">Login</button>
+                <div class="link-txt animation" style="--i:4;">
+                    <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="info-content login">
+            <h2 class="animation" style="--i:0;">WELCOME BACK!</h2>
+            <p class="animation" style="--i:1;">We are happy to have you with us again. If you need anything, we are here to help.</p>
+        </div>
+
+        <div class="curved-shape"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
